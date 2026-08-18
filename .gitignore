@@ -1,0 +1,7 @@
+# Dependências
+node_modules/
+
+# Artefatos gerados pelo Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
