@@ -12,7 +12,7 @@
   
   Evidência por vídeo: https://jam.dev/c/e1169944-1e7f-4c32-84a7-7437ba6dbf33
 
-**CT-002: Validar que nenhum dos campos está vazio **
+**CT-002: Validar que nenhum dos campos está vazio**
 
 - **Dado** que o usuário está na tela inicial de Login
 - **E** deixa o campo de "Email" ou "Senha" vazio
@@ -24,7 +24,7 @@ Resultado atual✅: O sistema a mensagem "Esse campo é obrigatório" e não per
 
 Evidência por vídeo: https://jam.dev/c/ecdde981-73e9-46fc-9b4f-7db872f23535
 
-**CT-003: Validar funcionamento da função “Esqueceu a senha?” **
+**CT-003: Validar funcionamento da função “Esqueceu a senha?”**
 
 - **Dado** que o usuário está na tela inicial de Login
 - **E** esquece a senha de seu acesso
