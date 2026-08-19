@@ -1,6 +1,6 @@
 ## Casos de Teste - Bancos de Dados
 
-**CT-001: Validar criação de um banco de dados**
+### **CT-001: Validar criação de um banco de dados**
 
 - **Dado** que o usuário entrou no menu "Bancos de dados" 
 - **E** clicou no botão "Criar" com ícone de lápis no lado direito
@@ -11,7 +11,7 @@
   
   Evidência por vídeo: https://jam.dev/c/866e0158-f986-476f-8caa-10df0c8db8f3
 
-**CT-002: Validar obrigatoriedade do nome ao criar um banco de dados**
+### **CT-002: Validar obrigatoriedade do nome ao criar um banco de dados**
 
 - **Dado** que o usuário clicou no botão "Criar" com ícone de lápis no lado direito
 - **Quando** ele tentar criar um banco de dados sem nome
@@ -22,7 +22,7 @@
   
   Evidência por vídeo: https://jam.dev/c/a0775a56-a74f-4aff-b820-fb1f7e157ea1
 
-  **CT-003: Validar impossibilidade de inserir dois ou mais bancos de dado com o mesmo nome**
+### **CT-003: Validar impossibilidade de inserir dois ou mais bancos de dado com o mesmo nome**
 
 - **Dado** que o usuário clicou no botão "Criar" com ícone de lápis no lado direito
 - **E** criou um Banco de Dados com o nome de preferência
@@ -34,7 +34,7 @@
   
   Evidência por vídeo: https://jam.dev/c/a42d1f0b-f52a-46fc-83fb-fd0d776ab822
 
-  **CT-004: Validar comportamento correto da barra de pesquisa**
+### **CT-004: Validar comportamento correto da barra de pesquisa**
 
 - **Dado** que o usuário criou diversos bancos de dados com nomes diferentes
 - **E** clicou no placeholder escrito "Pesquisar"
@@ -45,7 +45,7 @@
   
   Evidência por vídeo: https://jam.dev/c/c0371780-42fc-48f0-860c-fc627f6201dc
 
-  **CT-005: Validar comportamento do ícone de "Atualizar"**
+### **CT-005: Validar comportamento do ícone de "Atualizar"**
 
 - **Dado** que o usuário criou diversos bancos de dados com êxito
 - **E** visualizou o ícone de "Atualizar" ao lado esquerdo do botão de "Criar"
@@ -56,7 +56,7 @@
   
   Evidência por vídeo: https://jam.dev/c/4cfd5bc4-f227-4c7e-ade6-90af406f4023
 
-  **CT-006: Validar funcionamento correto da opção de arquivar um banco de dados**
+### **CT-006: Validar funcionamento correto da opção de arquivar um banco de dados**
 
 - **Dado** que o usuário criou um banco de dados com êxito
 - **E** clicou no ícone azul de "Arquivar" ao lado do ícone de deletar
@@ -67,7 +67,7 @@
   
   Evidência por vídeo: https://jam.dev/c/63e4c471-855b-4299-b5a3-d4984a571748
 
-  **CT-007: Validar funcionamento correto da opção de deletar um banco de dados**
+### **CT-007: Validar funcionamento correto da opção de deletar um banco de dados**
 
 - **Dado** que o usuário criou um banco de dados com êxito
 - **E** visualizou o ícone vermelho de "Lixeira" ao lado do ícone de arquivar
@@ -78,7 +78,7 @@
   
   Evidência por vídeo: https://jam.dev/c/7699d176-5a48-42ff-999a-760de8eab857
 
-  **CT-008: Validar formatação de data de criação para o formato nacional(DD/MM/AAAA)**
+### **CT-008: Validar formatação de data de criação para o formato nacional(DD/MM/AAAA)**
 
 - **Dado** que o usuário criou um banco de dados com êxito
 - **Quando** visualizar a data de criação
@@ -88,7 +88,7 @@
   
   Evidência por vídeo: https://jam.dev/c/a4e1a94a-3b3b-4d2b-8f92-92735aba52f4
 
-  **CT-009: Validar persistência dos dados ao ir para outro menu e voltar para a lista de bancos de dados**
+### **CT-009: Validar persistência dos dados ao ir para outro menu e voltar para a lista de bancos de dados**
 
 - **Dado** que o usuário criou um banco de dados com êxito
 - **E** acessou outro menu como "Colmeia Forms"
@@ -99,7 +99,7 @@
   
   Evidência por vídeo: https://jam.dev/c/9f0e5429-49f0-43f1-bf9a-6030596652b0
 
-  **CT-010: Validar persistência dos dados ao ir para listas de itens arquivados e voltar para a lista de bancos de dados criados**
+### **CT-010: Validar persistência dos dados ao ir para listas de itens arquivados e voltar para a lista de bancos de dados criados**
 
 - **Dado** que o usuário criou um banco de dados com êxito
 - **E** acessou o menu de "Itens arquivados"

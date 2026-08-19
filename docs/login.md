@@ -1,6 +1,6 @@
 ## Casos de Teste - Login
 
-**CT-001: Validar estruturação do e-mail inserido pelo usuário ✅**
+### **CT-001: Validar estruturação do e-mail inserido pelo usuário ✅**
 
 - **Dado** que o usuário está na tela inicial de Login 
 - **E** insere seu e-mail no campo "Email",
@@ -15,7 +15,7 @@
   Evidência por vídeo: https://jam.dev/c/e1169944-1e7f-4c32-84a7-7437ba6dbf33
 
 
-**CT-002: Validar que nenhum dos campos está vazio**
+### **CT-002: Validar que nenhum dos campos está vazio**
 
 - **Dado** que o usuário está na tela inicial de Login
 - **E** deixa o campo de "Email" ou "Senha" vazio
@@ -30,7 +30,7 @@
   Evidência por vídeo: https://jam.dev/c/ecdde981-73e9-46fc-9b4f-7db872f23535
 
 
-**CT-003: Validar funcionamento da função “Esqueceu a senha?”**
+### **CT-003: Validar funcionamento da função “Esqueceu a senha?”**
 
 - **Dado** que o usuário está na tela inicial de Login
 - **E** esquece a senha de seu acesso
@@ -44,7 +44,7 @@
   Evidência por vídeo: https://jam.dev/c/dc21b1fa-95fe-4145-8682-06b235713f3d
  
 
-**CT-004: Validar o funcionamento do botão “Entrar” com dado incoerente**
+### **CT-004: Validar o funcionamento do botão “Entrar” com dado incoerente**
 
 - **Dado** que o usuário está na tela inicial de Login
 - **E** colocar seu e-mail ou senha de maneira que não condiz com seus dados
@@ -58,7 +58,7 @@
   Evidência por vídeo: https://jam.dev/c/78ddfbdc-f9ab-41af-9f5a-0e1cc1101f4a
 
 
-**CT-005: Validar funcionamento correto do botão “Entrar” com dado coerente**
+### **CT-005: Validar funcionamento correto do botão “Entrar” com dado coerente**
 
 - **Dado** que o usuário está na tela inicial de Login
 - **Quando** colocar suas informações (Email e senha) condizentes com seus dados
@@ -72,7 +72,7 @@
   Evidência por vídeo: https://jam.dev/c/9ab91a4d-76b1-4fc9-9376-0f7bb80b20d9
 
 
-**CT-006: Validar consistência de idioma nos campos do formulário**
+### **CT-006: Validar consistência de idioma nos campos do formulário**
 
 - **Dado** que o usuário está na tela de login
 - **Quando** observa os textos da interface

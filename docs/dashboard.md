@@ -1,6 +1,6 @@
 ## Casos de Teste - Tela inicial(Dashboard)
 
-**CT-001:Validar funcionamento do ícone de Perfil**
+### **CT-001:Validar funcionamento do ícone de Perfil**
 
 - **Dado** o acesso do usuário a tela inicial pós login  
 - **E** visualiza o ícone de Perfil no canto superior direito
@@ -11,7 +11,7 @@
     
     Evidência por vídeo: https://jam.dev/c/c0c9c052-dd56-4d3a-b4b1-6e30ed902e51
 
-  **CT-002:Validar funcionamento do dropdown de "Candidato"**
+### **CT-002:Validar funcionamento do dropdown de "Candidato"**
 
 - **Dado** que o usuário está autenticado e na tela inicial
 - **E** visualiza a palavra "Candidato" com um dropdown no canto superior direito
@@ -22,7 +22,7 @@
     
     Evidência por vídeo: https://jam.dev/c/f3650059-13fe-4ab6-aad1-65ecd00873e9
 
-  **CT-003: Validar área de conteúdo principal após login**
+### **CT-003: Validar área de conteúdo principal após login**
 
 - **Dado** que o usuário realiza login com sucesso 
 - **Quando** é redirecionado para a tela inicial (dashboard)
@@ -32,7 +32,7 @@
     
     Evidência por vídeo: https://jam.dev/c/d0d1c3b4-a9c3-4989-b002-2bac8563ee6d
 
-  **CT-004: Validar função do ícone da barra lateral esquerda (megafone)**
+### **CT-004: Validar função do ícone da barra lateral esquerda (megafone)**
 
 - **Dado** que o usuário está autenticado e na tela inicial
 - **E** observa a barra lateral esquerda
@@ -43,7 +43,7 @@
     
     Evidência por vídeo: https://jam.dev/c/cf609154-3e50-41fa-8cbe-adbbad07c896
 
-  **CT-005: Validar direcionamento de página após clicar na opção "Bancos de dados"**
+### **CT-005: Validar direcionamento de página após clicar na opção "Bancos de dados"**
 
 - **Dado** que o usuário está autenticado e na tela inicial
 - **E** clica no ícone de megafone no canto esquerdo
@@ -54,7 +54,7 @@
 
     Evidência por vídeo: https://jam.dev/c/a7abe246-40c5-40d4-9dae-d2f1e7dc89a3
 
-  **CT-006:Validar direcionamento de página após clicar na opção "Colmeia Forms"**
+### **CT-006:Validar direcionamento de página após clicar na opção "Colmeia Forms"**
 
 - **Dado** que o usuário está autenticado e na tela inicial
 - **E** clica no ícone de megafone no canto esquerdo
@@ -66,7 +66,7 @@
     Evidência por vídeo: https://jam.dev/c/adfb3d69-2415-4b88-ab88-149ffc7e358c
 
 
-  **CT-007: Validar fechamento do menu de "Campanha"**
+### **CT-007: Validar fechamento do menu de "Campanha"**
 
 - **Dado** que o usuário clicou no ícone de "Megafone" no canto esquerdo
 - **E** o menu de "Campanha" foi aberto
@@ -77,7 +77,7 @@
 
     Evidência por vídeo: https://jam.dev/c/4cca115e-6d57-4063-8acc-2f847fac34fe
 
-  **CT-008: Validar volta a tela inicial após entrar em outra tela**
+### **CT-008: Validar volta a tela inicial após entrar em outra tela**
 
 - **Dado** que o usuário clicou no ícone de "megafone" no canto esquerdo
 - **E** selecionou algum dos itens do menu (ex: Bancos de dados ou Colmeia Forms)

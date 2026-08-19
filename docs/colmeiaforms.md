@@ -1,6 +1,6 @@
 ## Casos de Teste - Colmeia Forms
 
-**CT-001: Validar área de conteúdo principal no menu Colmeia Forms**
+### **CT-001: Validar área de conteúdo principal no menu Colmeia Forms**
 
 - **Dado** que o usuário acessa o menu Colmeia Forms
 - **Quando** visualiza a área principal da tela
