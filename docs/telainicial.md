@@ -50,9 +50,9 @@
 - **Quando** selecionar a opção "Bancos de dados"
 - **Então** Deve ser direcionado para a tela de criação e pesquisa de banco de dados
 
-  Resultado atual: Mesmo que o caminho tenha melhorias (Como citado nos casos de teste passados), o usuário consegue clicar em "Bancos de dados" e acessar a nova tela normalmente.
-  
-  Evidência por vídeo: 
+  Resultado atual✅⚠️: O usuário consegue clicar em "Bancos de dados" e acessar a nova tela normalmente. Mas como proposta de melhoria, notei que ele só consegue acessar se clicar na palavra "Bancos de dados", caso clique na área sombreada da opção, ele não tem ação nenhuma, o que causa confusão na interface e no entendimento do usuário.
+
+  Evidência por vídeo: https://jam.dev/c/a7abe246-40c5-40d4-9dae-d2f1e7dc89a3
 
   **CT-006:**
 
