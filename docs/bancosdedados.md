@@ -109,3 +109,4 @@
   Resultado atual✅: Funciona corretamente e os registros permanecem na lista após essa navegação específica.
   
   Evidência por vídeo: https://jam.dev/c/58647463-495e-47f1-946a-1f6705575a28
+
