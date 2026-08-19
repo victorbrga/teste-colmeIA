@@ -4,24 +4,32 @@
 
 - **Dado** que o usuário está na tela inicial de Login 
 - **E** insere seu e-mail no campo "Email",
-- **Quando** o e-mail for inserido sem "@" ou domínio (ex: "usuarioexemplo")
+- **Quando** o e-mail for inserido sem "@" ou domínio (ex: "usuarioexemplo", "usuario.exemplo")
 - **Então** o usuário não pode prosseguir o Login
 - **E** a mensagem "Email Inválido" deve ser exibido abaixo do campo
 
-**CT-002: Validar que nenhum dos campos está vazio ✅**
+  Resultado atual✅: O sistema valida a inserção de "@" e de domínio, fazendo assim com que caso o usuário coloque um e-mail fora da estrutura correta, a mensagem: "Email Inválido é exibida", é importante ressaltar que o usuário não consegue prosseguir com o login depois disso.
+  
+  Evidência por vídeo: https://jam.dev/c/e1169944-1e7f-4c32-84a7-7437ba6dbf33
 
-**Dado** que o usuário está na tela inicial de Login
-**E** deixa o campo de "Email" ou "Senha"
-**Quando** tentar o login clicando no botão "Entrar"
-**Então** o usuário deve ser impossibilitado de acessar as próximas páginas
-**E** deve ter uma mensagem intuitiva como "Esse campo é obrigatório"
+**CT-002: Validar que nenhum dos campos está vazio**
 
-**CT-003: Validar funcionamento da função “Esqueceu a senha?” ⚠️**
+- **Dado** que o usuário está na tela inicial de Login
+- **E** deixa o campo de "Email" ou "Senha"
+- **Quando** tentar o login clicando no botão "Entrar"
+- **Então** o usuário deve ser impossibilitado de acessar as próximas páginas
+- **E** deve ter uma mensagem intuitiva como "Esse campo é obrigatório"
 
-**Dado** que o usuário está na tela inicial de Login
-**E** esquece a senha de seu acesso
-**Quando** clicar no texto "Esqueceu a senha?"
-**Então** ele deve ser redirecionado para uma tela que possibilite a recuperação da senha
+Resultado atual✅: O sistema a mensagem "Esse campo é obrigatório" e não permite o avanço com nenhum dos dois campos vazios, porém ao clicar em entrar o erro muda para "Usuário ou senha inválidos", não esta categoricamente errado, porém não exibe a causa raiz do problema para o usuário, minha sugestão de melhoria é que mantenha a mensagem de campo obrigatório nesse caso.
+
+Evidência por vídeo: https://jam.dev/c/ecdde981-73e9-46fc-9b4f-7db872f23535
+
+**CT-003: Validar funcionamento da função “Esqueceu a senha?”**
+
+- **Dado** que o usuário está na tela inicial de Login
+- **E** esquece a senha de seu acesso
+- **Quando** clicar no texto "Esqueceu a senha?"
+- **Então** ele deve ser redirecionado para uma tela que possibilite a recuperação da senha
 
 **CT-004: Validar o funcionamento incorreto do botão “Entrar” ⚠️**
 
@@ -30,9 +38,13 @@
 **Quando** tentar acessar a próxima página ao clicar no botão "Entrar"
 **Então** o usuário deve ser avisado que Email ou senha estão inválidos
 
-**CT-005: Validar funcionamento correto do botão “Entrar”**
+  Resultado atual✅: Ao inserir dados incoerentes(ou inexistentes) e tentar acesso ao clicar no botão de "Entrar" é exibida a mensagem "Usuário ou senha inválidos", tendo o comportamento correto é impedir o usuário com dados incoerentes de entrar.
+  
+Evidência por vídeo: https://jam.dev/c/78ddfbdc-f9ab-41af-9f5a-0e1cc1101f4a
 
-**Dado** que o usuário está na tela inicial de Login
-**Q**uando colocar suas informações (Email e senha) condizentes com seus dados
-**E** clicar no botão "Entrar" para acessar a próxima página
-**Então** o usuário deve prosseguir sem impedimentos ou mensagens inesperadas
+**CT-005: Validar funcionamento correto do botão “Entrar” com dado coerente**
+
+- **Dado** que o usuário está na tela inicial de Login
+- **Q**uando colocar suas informações (Email e senha) condizentes com seus dados
+- **E** clicar no botão "Entrar" para acessar a próxima página
+- **Então** o usuário deve prosseguir sem impedimentos ou mensagens inesperadas
