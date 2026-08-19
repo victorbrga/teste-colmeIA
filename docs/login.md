@@ -24,7 +24,7 @@
 - **E** deve ter uma mensagem intuitiva como "Esse campo é obrigatório"
 
 
-  Resultado atual✅: O sistema a mensagem "Esse campo é obrigatório" e não permite o avanço com nenhum dos dois campos vazios, porém ao clicar em entrar o erro muda para "Usuário ou senha inválidos", não esta categoricamente errado, porém não exibe a causa raiz do problema para o usuário, minha sugestão de melhoria é que mantenha a mensagem de campo obrigatório nesse caso.
+  Resultado atual⚠️: O sistema a mensagem "Esse campo é obrigatório" e não permite o avanço com nenhum dos dois campos vazios, porém ao clicar em entrar o erro muda para "Usuário ou senha inválidos", não esta categoricamente errado, porém não exibe a causa raiz do problema para o usuário, minha sugestão de melhoria é que mantenha a mensagem de campo obrigatório nesse caso.
 
 
   Evidência por vídeo: https://jam.dev/c/ecdde981-73e9-46fc-9b4f-7db872f23535
