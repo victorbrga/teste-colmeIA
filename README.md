@@ -38,3 +38,28 @@ Cada caso de teste é sinalizado com um emoji, indicando rapidamente o status do
 ## 🎥 Sobre as evidências
 
 Todos os casos de teste inclui um **link de vídeo** demonstrando a reprodução do cenário na prática, permitindo validar exatamente o passo a passo e o resultado obtido, sem depender apenas da descrição textual.
+
+## ⚙️ Automação (Cypress)
+
+Como complemento à documentação manual, os fluxos mais críticos foram automatizados utilizando **Cypress**.
+
+### Pré-requisitos
+
+- [Node.js](https://nodejs.org/) instalado (versão 18 ou superior recomendada)
+
+### Como rodar os testes
+
+```bash
+# Clone o repositório
+git clone https://github.com/victorbrga/teste-colmeIA.git
+cd teste-colmeIA
+
+# Instale as dependências
+npm install
+
+# Abra o Cypress em modo interativo
+npm run cy:open
+
+# Ou rode os testes via terminal (headless)
+npm run cy:run
+```
