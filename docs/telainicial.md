@@ -78,14 +78,14 @@
   
   Evidência por vídeo: https://jam.dev/c/4cca115e-6d57-4063-8acc-2f847fac34fe
 
-  **CT-008:**
+  **CT-008: Validar volta a tela inicial após entrar em outra tela**
 
-- **Dado**  
-- **E** 
-- **Quando**
-- **Então** 
-- **E** 
+- **Dado** que o usuário clicou no ícone de "megafone" no canto esquerdo
+- **E** selecionou algum dos itens do menu (ex: Bancos de dados ou Colmeia Forms)
+- **Quando** decidir voltar a tela inicial
+- **Então** a interface deve conter algum ícone ou texto para volta da inicial
 
-  Resultado atual:
+  Resultado atual⚠️: Não existe nenhum ícone ou texto dedicado para retornar à tela inicial. A única forma de voltar é clicar novamente no próprio ícone de megafone, o mesmo ícone usado para abrir o menu "Campanha". Isso faz com que um único elemento acumule duas funções opostas (abrir o menu e voltar para tela inicial), sem nenhuma indicação visual de que ele se comporta de forma diferente na segunda interação. Acaba sendo um problema de usabilidade e consistência de UI, não bloqueia o uso mas prejudica a experiência de navegação.
+
   
-  Evidência por vídeo: 
+  Evidência por vídeo: https://jam.dev/c/f8be6c60-effa-4745-a7dd-7bf6ea433a81
