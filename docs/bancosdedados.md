@@ -95,7 +95,7 @@
 - **Quando** voltar a acessar o menu de "Bancos de dados"
 - **Então** o banco de dados inserido anteriormente ainda deve estar cadastrado na lista
 
-  Resultado atual❌: Ao navegar para "Colmeia Forms" e retornar para "Bancos de dados", todos os registros criados anteriormente desaparecem da lista. Na minha visão esse é um dos achados mais graves identificados porque sugere perda de dados apenas por navegação entre telas, o que é um comportamento crítico. A experiência do usuário é de que o trabalho realizado foi perdido, gerando desconfiança severa na confiabilidade do sistema.
+  Resultado atual❌: Ao navegar para "Colmeia Forms" e retornar para "Bancos de dados", todos os registros criados anteriormente somem da lista. Na minha visão esse é um dos achados mais graves identificados porque sugere perda de dados apenas por navegação entre telas, o que é um comportamento crítico. A experiência do usuário é de que o trabalho realizado foi perdido, gerando desconfiança severa na confiabilidade do sistema.
   
   Evidência por vídeo: https://jam.dev/c/9f0e5429-49f0-43f1-bf9a-6030596652b0
 
