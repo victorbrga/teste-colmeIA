@@ -1,6 +1,6 @@
 ## Casos de Teste - Login
 
-### **CT-001: Validar estruturação do e-mail inserido pelo usuário ✅**
+### **CT-001: Validar estruturação do e-mail inserido pelo usuário**
 
 - **Dado** que o usuário está na tela inicial de Login 
 - **E** insere seu e-mail no campo "Email",
