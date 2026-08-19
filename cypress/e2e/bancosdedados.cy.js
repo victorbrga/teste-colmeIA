@@ -6,7 +6,7 @@ describe('CT-001: Validar criação de um banco de dados', () => {
     cy.get('a[href="/dashboard/campanha/bancos-de-dados"]').click()
   })
 
-  it('Deve criar um banco de dados e exibi-lo na listagem', () => {
+  it('Deve criar um banco de dados e exibir na listagem', () => {
     const nomeBanco = `Banco Teste ${Date.now()}`
 
     cy.contains('button', 'Criar').click()
