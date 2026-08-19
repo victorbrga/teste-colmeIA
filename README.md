@@ -1,6 +1,6 @@
 # Teste de QA — colmeIA
 
-Este projeto foi desenvolvido como parte do processo seletivo para a vaga de **Analista de Teste** na colmeIA — uma oportunidade que despertou bastante interesse, tanto pelo desafio técnico proposto quanto pela possibilidade de integrar um time que valoriza análise criteriosa e qualidade de produto.
+Este projeto foi desenvolvido como parte do processo seletivo para a vaga de **Analista de Teste** na colmeIA, uma oportunidade que despertou bastante interesse, tanto pelo desafio técnico proposto quanto pela possibilidade de integrar um time que valoriza análise criteriosa e qualidade de produto.
 
 ## 🎯 Objetivo
 
