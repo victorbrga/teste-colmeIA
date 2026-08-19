@@ -23,6 +23,8 @@
 - **Quando** clicar no texto "Esqueceu a senha?"
 - **Então** ele deve ser redirecionado para uma página/tela que possibilite a recuperação da senha
 
+ Evidência por vídeo: https://jam.dev/c/dc21b1fa-95fe-4145-8682-06b235713f3d
+
 **CT-004: Validar o funcionamento do botão “Entrar” com dado incoerente⚠️**
 
 - **Dado** que o usuário está na tela inicial de Login
