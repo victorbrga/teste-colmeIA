@@ -10,29 +10,29 @@
 
 **CT-002: Validar que nenhum dos campos está vazio ✅**
 
-- **Dado** que o usuário está na tela inicial de Login
-- **E** deixa o campo de "Email" ou "Senha"
-- **Quando** tentar o login clicando no botão "Entrar"
-- **Então** o usuário deve ser impossibilitado de acessar as próximas páginas
-- **E** deve ter uma mensagem intuitiva como "Esse campo é obrigatório"
+**Dado** que o usuário está na tela inicial de Login
+**E** deixa o campo de "Email" ou "Senha"
+**Quando** tentar o login clicando no botão "Entrar"
+**Então** o usuário deve ser impossibilitado de acessar as próximas páginas
+**E** deve ter uma mensagem intuitiva como "Esse campo é obrigatório"
 
 **CT-003: Validar funcionamento da função “Esqueceu a senha?” ⚠️**
 
-- **Dado** que o usuário está na tela inicial de Login
-- **E** esquece a senha de seu acesso
-- **Quando** clicar no texto "Esqueceu a senha?"
-- **Então** ele deve ser redirecionado para uma tela que possibilite a recuperação da senha
+**Dado** que o usuário está na tela inicial de Login
+**E** esquece a senha de seu acesso
+**Quando** clicar no texto "Esqueceu a senha?"
+**Então** ele deve ser redirecionado para uma tela que possibilite a recuperação da senha
 
 **CT-004: Validar o funcionamento incorreto do botão “Entrar” ⚠️**
 
-- **Dado** que o usuário está na tela inicial de Login
-- **E** colocar seu e-mail ou senha de maneira que não condiz com seus dados
-- **Quando** tentar acessar a próxima página ao clicar no botão "Entrar"
-- **Então** o usuário deve ser avisado que Email ou senha estão inválidos
+**Dado** que o usuário está na tela inicial de Login
+**E** colocar seu e-mail ou senha de maneira que não condiz com seus dados
+**Quando** tentar acessar a próxima página ao clicar no botão "Entrar"
+**Então** o usuário deve ser avisado que Email ou senha estão inválidos
 
 **CT-005: Validar funcionamento correto do botão “Entrar”**
 
-- **Dado** que o usuário está na tela inicial de Login
-- **Q**uando colocar suas informações (Email e senha) condizentes com seus dados
-- **E** clicar no botão "Entrar" para acessar a próxima página
-- **Então** o usuário deve prosseguir sem impedimentos ou mensagens inesperadas
+**Dado** que o usuário está na tela inicial de Login
+**Q**uando colocar suas informações (Email e senha) condizentes com seus dados
+**E** clicar no botão "Entrar" para acessar a próxima página
+**Então** o usuário deve prosseguir sem impedimentos ou mensagens inesperadas
