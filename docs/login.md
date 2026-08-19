@@ -24,10 +24,10 @@
 - **E** deve ter uma mensagem intuitiva como "Esse campo é obrigatório"
 
 
-Resultado atual✅: O sistema a mensagem "Esse campo é obrigatório" e não permite o avanço com nenhum dos dois campos vazios, porém ao clicar em entrar o erro muda para "Usuário ou senha inválidos", não esta categoricamente errado, porém não exibe a causa raiz do problema para o usuário, minha sugestão de melhoria é que mantenha a mensagem de campo obrigatório nesse caso.
+  Resultado atual✅: O sistema a mensagem "Esse campo é obrigatório" e não permite o avanço com nenhum dos dois campos vazios, porém ao clicar em entrar o erro muda para "Usuário ou senha inválidos", não esta categoricamente errado, porém não exibe a causa raiz do problema para o usuário, minha sugestão de melhoria é que mantenha a mensagem de campo obrigatório nesse caso.
 
 
-Evidência por vídeo: https://jam.dev/c/ecdde981-73e9-46fc-9b4f-7db872f23535
+  Evidência por vídeo: https://jam.dev/c/ecdde981-73e9-46fc-9b4f-7db872f23535
 
 
 **CT-003: Validar funcionamento da função “Esqueceu a senha?”**
@@ -38,10 +38,10 @@ Evidência por vídeo: https://jam.dev/c/ecdde981-73e9-46fc-9b4f-7db872f23535
 - **Então** ele deve ser redirecionado para uma página/tela que possibilite a recuperação da senha
 
 
- Resultado atual❌: Atualmente o botão "Esqueceu a senha?" não direciona o usuário para nenhuma tela/página, fazendo assim com que o botão não tenha nenhuma funcionalidade e que o usuário não consiga mudar sua senha, causando uma instabildade e confusão.
+  Resultado atual❌: Atualmente o botão "Esqueceu a senha?" não direciona o usuário para nenhuma tela/página, fazendo assim com que o botão não tenha nenhuma funcionalidade e que o usuário não consiga mudar sua senha, causando uma instabildade e confusão.
  
 
- Evidência por vídeo: https://jam.dev/c/dc21b1fa-95fe-4145-8682-06b235713f3d
+  Evidência por vídeo: https://jam.dev/c/dc21b1fa-95fe-4145-8682-06b235713f3d
  
 
 **CT-004: Validar o funcionamento do botão “Entrar” com dado incoerente**
@@ -52,10 +52,10 @@ Evidência por vídeo: https://jam.dev/c/ecdde981-73e9-46fc-9b4f-7db872f23535
 - **Então** o usuário deve ser avisado que Email ou senha estão inválidos
 
 
-  Resultado atual✅: Ao inserir dados incoerentes(ou inexistentes) e tentar acesso ao clicar no botão de "Entrar" é exibida a mensagem "Usuário ou senha inválidos", tendo o comportamento correto é impedir o usuário com dados incoerentes de entrar.
+    Resultado atual✅: Ao inserir dados incoerentes(ou inexistentes) e tentar acesso ao clicar no botão de "Entrar" é exibida a mensagem "Usuário ou senha inválidos", tendo o comportamento correto é impedir o usuário com dados incoerentes de entrar.
   
 
-Evidência por vídeo: https://jam.dev/c/78ddfbdc-f9ab-41af-9f5a-0e1cc1101f4a
+  Evidência por vídeo: https://jam.dev/c/78ddfbdc-f9ab-41af-9f5a-0e1cc1101f4a
 
 
 **CT-005: Validar funcionamento correto do botão “Entrar” com dado coerente**
@@ -66,10 +66,10 @@ Evidência por vídeo: https://jam.dev/c/78ddfbdc-f9ab-41af-9f5a-0e1cc1101f4a
 - **Então** o usuário deve prosseguir sem impedimentos ou mensagens inesperadas
 
 
-Resultado atual❌: Ao realizar o teste de acessar o sistema com um usuário existente e com seus dados coerentes e clicar no botão "Entrar", foi exibido um modal com a mensagem "Seu login está incorreto, quer continuar?", independentemente de qual seja a credencial "correta" no ambiente de teste, o sistema apresenta uma contradição lógica: a mensagem de erro aparece exatamente no fluxo que **permite** o acesso, e não aparece no fluxo que **bloqueia** o acesso. Isso é logicamente invertido e enganoso para o usuário, pois sugere ao usuário que ele errou algo mesmo quando o sistema efetivamente concede acesso.
+  Resultado atual❌: Ao realizar o teste de acessar o sistema com um usuário existente e com seus dados coerentes e clicar no botão "Entrar", foi exibido um modal com a mensagem "Seu login está incorreto, quer continuar?", independentemente de qual seja a credencial "correta" no ambiente de teste, o sistema apresenta uma contradição lógica: a mensagem de erro aparece exatamente no fluxo que **permite** o acesso, e não aparece no fluxo que **bloqueia** o acesso. Isso é logicamente invertido e enganoso para o usuário, pois sugere ao usuário que ele errou algo mesmo quando o sistema efetivamente concede acesso.
 
 
-Evidência por vídeo: https://jam.dev/c/9ab91a4d-76b1-4fc9-9376-0f7bb80b20d9
+  Evidência por vídeo: https://jam.dev/c/9ab91a4d-76b1-4fc9-9376-0f7bb80b20d9
 
 
 **CT-006: Validar consistência de idioma nos campos do formulário**
@@ -79,7 +79,7 @@ Evidência por vídeo: https://jam.dev/c/9ab91a4d-76b1-4fc9-9376-0f7bb80b20d9
 - **Então** todos os textos deveriam estar no mesmo idioma
 
 
-Resultado atual❌: Existe o campo de input que exibe o placeholder "Password" em inglês, enquanto todo o restante da interface ("Esqueceu sua senha?" e botão "Entrar") está em português, gerando inconsistência de idioma na mesma tela.
+  Resultado atual❌: Existe o campo de input que exibe o placeholder "Password" em inglês, enquanto todo o restante da interface ("Esqueceu sua senha?" e botão "Entrar") está em português, gerando inconsistência de idioma na mesma tela.
 
 
-Evidência por vídeo: https://jam.dev/c/138fc820-cea2-448b-8a9b-5daf32b77d41
+  Evidência por vídeo: https://jam.dev/c/138fc820-cea2-448b-8a9b-5daf32b77d41
