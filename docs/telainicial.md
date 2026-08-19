@@ -54,30 +54,29 @@
 
   Evidência por vídeo: https://jam.dev/c/a7abe246-40c5-40d4-9dae-d2f1e7dc89a3
 
-  **CT-006:**
+  **CT-006:Validar direcionamento de página após clicar na opção "Colmeia Forms"**
 
-- **Dado**  
-- **E** 
-- **Quando**
-- **Então** 
-- **E** 
+- **Dado** que o usuário está autenticado e na tela inicial
+- **E** clica no ícone de megafone no canto esquerdo
+- **Quando** selecionar a opção "Bancos de dados"
+- **Então** Deve ser direcionado para a tela de formulário
 
-  Resultado atual:
+  Resultado atual⚠️: O usuário consegue clicar em "Colmeia Forms" e acessar a nova tela normalmente, o problema é que a tela não tem nenhum conteúdo, o nome indica que deveria ter um formulário, isso deixa o usuário inseguro e tende a achar que algo errado está aconecendo. Também como proposta de melhoria, notei que ele só consegue acessar se clicar na palavra "Colmeia Forms", caso clique na área sombreada da opção, ele não tem ação nenhuma, o que causa confusão na interface e no entendimento do usuário.
   
-  Evidência por vídeo: 
+  Evidência por vídeo: https://jam.dev/c/adfb3d69-2415-4b88-ab88-149ffc7e358c
 
 
-  **CT-007:**
+  **CT-007: Validar fechamento do menu de "Campanha"**
 
-- **Dado**  
-- **E** 
-- **Quando**
-- **Então** 
-- **E** 
+- **Dado** que o usuário clicou no ícone de "Megafone" no canto esquerdo
+- **E** o menu de "Campanha" foi aberto
+- **Quando** tenta fechar o painel (clicando novamente no ícone de megafone, clicando fora do painel, ou buscando algum botão/ícone de fechar)
+- **Então** o painel deveria fechar, retornando o usuário à visualização anterior da tela inicial 
 
-  Resultado atual:
+  Resultado atual⚠️: o painel "Campanha" permanece aberto independentemente da ação tentada, não há botão de fechar, clicar novamente no ícone de megafone não reverte a ação, e clicar fora do painel também não o fecha. Isso compromete a navegabilidade básica do sistema, forçando o usuário a soluções alternativas (reload) para continuar usando a aplicação.
+
   
-  Evidência por vídeo: 
+  Evidência por vídeo: https://jam.dev/c/4cca115e-6d57-4063-8acc-2f847fac34fe
 
   **CT-008:**
 
