@@ -2,11 +2,11 @@
 
 **CT-001: Validar estruturação do e-mail inserido pelo usuário ✅**
 
-*Dado* que o usuário está na tela inicial de Login 
-*E* insere seu e-mail no campo "Email",
-*Quando* o e-mail for inserido sem "@" ou domínio (ex: "usuarioexemplo")
-*Então* o usuário não pode prosseguir o Login
-E* a mensagem "Email Inválido" deve ser exibido abaixo do campo
+- *Dado* que o usuário está na tela inicial de Login 
+- *E* insere seu e-mail no campo "Email",
+- *Quando* o e-mail for inserido sem "@" ou domínio (ex: "usuarioexemplo")
+- *Então* o usuário não pode prosseguir o Login
+- *E* a mensagem "Email Inválido" deve ser exibido abaixo do campo
 
 **CT-002: Validar que nenhum dos campos está vazio ✅**
 
